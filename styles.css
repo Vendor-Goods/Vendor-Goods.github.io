@@ -1,0 +1,167 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #111;
+  padding: 20px 0;
+  color: white;
+}
+
+header .logo a {
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+header .nav-links {
+  list-style: none;
+  text-align: right;
+}
+
+header .nav-links li {
+  display: inline;
+  margin: 0 20px;
+}
+
+header .nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+}
+
+header .btn {
+  background-color: #f4a261;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero-background.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  background-color: #e76f51;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Shop Section */
+.shop {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.shop h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.product p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.product .btn {
+  background-color: #e76f51;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 25px;
+}
+
+/* About Section */
+.about {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
